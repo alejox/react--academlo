@@ -1,35 +1,24 @@
 .card{
-  width: 280px;
+  width: 320px;
   height: 200px;
   border-radius: 10px;
   margin: 10px;
 }
 
-.card h2{
+.card h1{
   text-align: center;
   margin-top: 50px;
+  font-size: 20px;
 }
 
 .card ul{
   margin: 30px 50px 0px;
 }
-.bg-blue{
-  background-color: rgb(18, 140, 240);
-}
-.bg-green{
-  background-color: rgb(30, 156, 98);
-}
-.bg-red{
-  background-color: rgb(231, 87, 147);
-}
-.bg-yellow{
-  background-color: rgb(231, 229, 87);
-}
+
 
 .app{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 button{
@@ -47,5 +36,21 @@ button{
 button:hover{
   background-color: darkorchid;
   transition: all;
+}
+
+.bg-green{
+  background-color: rgb(150, 228, 140);
+}
+.bg-red{
+  background-color: rgb(228, 140, 174);
+}
+.bg-blue{
+  background-color: rgb(140, 175, 228);
+}
+.bg-orange{
+  background-color: rgb(228, 193, 140);
+}
+.bg-yellow{
+  background-color: rgb(228, 228, 140);
 }
 

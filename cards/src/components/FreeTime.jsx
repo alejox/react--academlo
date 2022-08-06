@@ -5,10 +5,14 @@ const FreeTime = () => {
     name:'Comer',
     movie:'Salir',
     music:'Leer'
+  };
+
+  const click = () =>{
+    alert('Tiempo libre');
   }
 
   return(
-    <div className="card bg-blue">
+    <div className="card bg-blue" onClick={click}>
       <h2>{me.title}</h2>
       <ul>
         <li>{me.name}</li>

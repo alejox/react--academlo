@@ -5,10 +5,14 @@ const Hobbies = () => {
     name:'Tocar bateria',
     movie:'Estudiar',
     music:'Viajar'
+  };
+
+  const click = () =>{
+    alert('Hobbies');
   }
 
   return(
-    <div className="card bg-red">
+    <div className="card bg-red" onClick={click}>
       <h2>{me.title}</h2>
       <ul>
         <li>{me.name}</li>
